@@ -74,8 +74,8 @@ export const getCurrentUserApi =
 
   export const updateProfileApi =
   async (data: {
-    firstName: string
-    lastName: string
+    name: string
+    
     email: string
     image?: string
   }) => {
