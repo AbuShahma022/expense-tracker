@@ -80,8 +80,8 @@ export const loginUser = async (
       result.token,
       {
         httpOnly: true,
-        secure: false,
-        sameSite: "lax",
+        secure: true,
+        sameSite: "none",
         maxAge:
           7 *
           24 *
