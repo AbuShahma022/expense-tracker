@@ -1,71 +1,76 @@
-# Expense Tracker
+# ExpenseWave
 
-A modern full-stack Expense Tracker application built with Next.js, TypeScript, Redux Toolkit, Tailwind CSS, and shadcn/ui.
+ExpenseWave is a modern full-stack expense tracking application built with Next.js, TypeScript, Redux Toolkit, Node.js, Express.js, and MongoDB.
 
-## Features
+## Live Demo
 
-- User Authentication
-  - Register
-  - Login
-  - Logout
-  - Forgot Password
-  - OTP Verification
-  - Reset Password
+Frontend: https://expensewave.vercel.app/
 
-- Dashboard Analytics
-  - Expense Summary
-  - Monthly Expense Chart
-  - Category Expense Chart
+Backend API: https://expense-tracker-817j.onrender.com/
 
-- Expense Management
-  - Add Expense
-  - Update Expense
-  - Delete Expense
-  - Pagination
-  - Search Expenses
-  - Filter by Month
+---
 
-- Budget Management
-  - Create Monthly Budget
-  - Track Spending
+# Features
 
-- Profile Settings
-  - Update Profile
-  - Upload Profile Image
+## Authentication
+- User Registration
+- User Login
+- Logout
+- Forgot Password
+- OTP Verification
+- Reset Password
+- Protected Dashboard Routes
 
-- Modern UI
-  - Responsive Design
-  - Dark Mode Support
-  - shadcn/ui Components
-  - Recharts Analytics
+## Dashboard
+- Expense Summary
+- Monthly Expense Analytics
+- Category Expense Analytics
+- Responsive Sidebar Navigation
+
+## Expense Management
+- Create Expense
+- Update Expense
+- Delete Expense
+- Search Expenses
+- Filter by Month
+- Pagination
+
+## Budget Management
+- Create Monthly Budget
+- Budget Tracking
+
+## Profile Settings
+- Update User Profile
+
+## UI/UX
+- Responsive Design
+- Modern Dashboard UI
+- Dark Mode Support
+- Recharts Analytics
+- Toast Notifications
 
 ---
 
 # Tech Stack
 
 ## Frontend
-
-- Next.js 16
+- Next.js
 - TypeScript
-- Tailwind CSS
 - Redux Toolkit
+- Tailwind CSS
 - shadcn/ui
 - Recharts
+- Axios
 - React Paginate
-- Sonner Toast
+- Sonner
 
 ## Backend
-
 - Node.js
 - Express.js
 - MongoDB
 - JWT Authentication
+- Cookie-Based Authentication
 
 ---
 
-# Installation
-
-## Clone Repository
-
-```bash
-git clone <your-repo-url>
+# add base url in api.ts 
