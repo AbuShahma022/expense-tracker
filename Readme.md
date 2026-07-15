@@ -73,4 +73,3 @@ Backend API: https://expense-tracker-817j.onrender.com/
 
 ---
 
-# add base url in api.ts 
